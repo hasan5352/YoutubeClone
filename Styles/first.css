@@ -1,3 +1,10 @@
+
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .search-box{
     display: block;
     padding: 6px;
@@ -5,21 +12,50 @@
     border: 1px solid #ddd;
 }
 
-.vid-preview{
-    width: 261.328px;
+.vid-card-div{
+    width: 300px;
     display: inline-block;
     vertical-align: top;
     padding: 4px;
 }
+.thumbnail-div{
+    margin-bottom: 12px;
+}
 .thumbnail{
-    width: 253.328px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+}
+
+.profile-pic-div{
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-pic{
+    cursor: pointer;
+    width: 36px;
+    border-radius: 36px;
+}
+.info-div{
+    display: inline-block;
+    width: 200px;
 }
 .vid-title{
-
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
 }
 .vid-author{
-
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: rgb(96, 96, 96);
+    font-size: 12px;
 }
 .vid-stats{
-
+    color: rgb(96, 96, 96);
+    font-size: 12px;
+    margin-bottom: 16px;
 }

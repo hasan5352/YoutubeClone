@@ -4,38 +4,60 @@
     <head>
         <title> YouTube Clone </title>
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="styles/first.css">
     </head>
 
     <body>
+        <!-- Search Box-->
         <input class="search-box" type="text" placeholder="Search">
         
-        <div class="vid-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <p class="vid-title"> 
-                Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
-            <p class="vid-author">
-                Marques Brownlee
-            </p>
-            <p class="vid-stats"> 
-                3.4M views &centerdot; 6 months ago
-            </p>
+        <!-- Video 1 preview -->
+        <div class="vid-card-div">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            </div>
+
+            <div class="all-info-div">
+                <div class="profile-pic-div">
+                    <img class="profile-pic" src="profilePics/channel-1.jpeg">
+                </div>
+
+                <div class="info-div">
+                    <p class="vid-title"> Talking Tech and AI with Google CEO Sundar Pichai! </p>
+                    <p class="vid-author"> Marques Brownlee </p>
+                    <p class="vid-stats"> 3.4M views &centerdot; 6 months ago </p>
+                </div>
+            </div>
         </div>
 
-        <div class="vid-preview">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-            <p class="vid-title"> 
-                Try Not To Laugh Challenge #9
-            </p>
-            <p class="vid-author">
-                Markiplier
-            </p>
-            <p class="vid-stats"> 
-                19M views &centerdot; 4 years ago
-            </p>
+        <!-- Video 2 preview -->
+        <div class="vid-card-div">
+            <div class="thumbnail-div">
+                <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            </div>
+
+            <div class="all-info-div">
+                <div class="profile-pic-div">
+                    <img class="profile-pic" src="profilePics/channel-2.jpeg">
+                </div>
+
+                <div class="info-div">
+                    <p class="vid-title"> Try Not To Laugh Challenge #9 </p>
+                    <p class="vid-author"> Markiplier </p>
+                    <p class="vid-stats"> 19M views · 4 years ago </p>
+                </div>
+            </div>
         </div>
+        
+
+
+
+
+
 
     </body>
-
 </html>
