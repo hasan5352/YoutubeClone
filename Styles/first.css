@@ -12,25 +12,27 @@ p {
     border: 1px solid #ddd;
 }
 
-.vid-card-div{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    padding: 4px;
+.videos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
 }
+
 .thumbnail-div{
     margin-bottom: 12px;
 }
 .thumbnail{
     cursor: pointer;
     width: 100%;
-    display: block;
+}
+.all-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .profile-pic-div{
-    width: 50px;
-    display: inline-block;
-    vertical-align: top;
+
 }
 .profile-pic{
     cursor: pointer;
@@ -38,8 +40,7 @@ p {
     border-radius: 36px;
 }
 .info-div{
-    display: inline-block;
-    width: 200px;
+
 }
 .vid-title{
     cursor: pointer;
