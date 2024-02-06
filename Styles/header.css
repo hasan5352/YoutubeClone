@@ -1,0 +1,91 @@
+
+.header{
+    margin-bottom: 20px;    
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dedede;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.menu-icon{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.logo-icon{
+    height: 20px;
+}
+
+.header-middle{
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    
+    margin-left: 70px;
+    margin-right: 35px;
+}
+.search-box{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.05);
+    flex: 1;
+    height: 34px;
+    padding-left: 14px;
+    font-size: 16px;
+    }
+.search-box::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+}
+.search-button{
+    border: 1px solid #cccccc;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 39px;
+    width: 66px;
+    background-color: rgb(248, 248, 248);
+    margin-left: -1px;
+    margin-right: 15px;
+    
+}
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
+}
+.microphone-button{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.microphone-button:hover{
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.microphone-button:active{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.microphone-icon{
+    height: 30px;
+    width: 20px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    background-color: lightgreen;
+}
+.right-side-icons{
+    height: 20px;
+}
+.myPic{
+    height: 20px;
+}
