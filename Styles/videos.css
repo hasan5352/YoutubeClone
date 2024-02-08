@@ -1,4 +1,9 @@
-
+.channel-link, .video-link {
+    text-decoration: none;
+}
+.channel-link:visited, .video-link:visited{
+    color: black;
+}
 .videos-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -58,4 +63,5 @@
     cursor: pointer;
     margin-top: 8px;
     margin-bottom: 4px;
+    display: inline-block;
 }
