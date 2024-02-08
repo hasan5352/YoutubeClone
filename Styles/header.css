@@ -59,6 +59,9 @@
     font-family: Roboto, Arial;
     font-size: 16px;
 }
+.search-button, .microphone-button{
+    position: relative;
+}
 .search-button{
     border: 1px solid #cccccc;
     border-top-right-radius: 40px;
@@ -107,6 +110,7 @@
 .upload-div, .notification-div{
     border-radius: 20px;
     padding: 6px 8px 6px 8px;
+    position: relative;
 }
 .upload-div:hover, .notification-div:hover{
    background-color: rgba(0,0,0,0.08);
@@ -118,9 +122,6 @@
     height: 27px;
 }
 
-.notification-div{
-    position: relative;
-}
 .notification-icon{
     height: 30px;
 }
@@ -140,4 +141,38 @@
 }
 .myPic:active{
     border: 1px solid rgb(71, 71, 202);
+}
+
+/* Tooltips */
+.search-button, .notification-div,
+.microphone-button, .upload-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-notification-tooltip {
+    bottom: -50px;
+}
+.voice-upload-tooltip{
+    bottom: -40px;
+    white-space: nowrap;
+}
+.search-notification-tooltip, .voice-upload-tooltip {
+    position: absolute;
+    color: white;
+    background-color: rgb(97, 97, 97);
+    padding: 8px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+
+.search-button:hover .search-notification-tooltip, 
+.notification-div:hover .search-notification-tooltip,
+.microphone-button:hover .voice-upload-tooltip,
+.upload-div:hover .voice-upload-tooltip{
+    opacity: 0.92;
 }
