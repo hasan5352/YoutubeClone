@@ -4,7 +4,8 @@ p {
 }
 
 body{
-    padding: 67px 0 0 80px;
     font-family: Roboto, Arial;
     padding-bottom: 3000px;
+    padding-right: 24px;
+    padding: 67px 24px 3000px 96px;
 }

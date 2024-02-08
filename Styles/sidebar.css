@@ -5,32 +5,26 @@
     top: 57px;
     width: 72px;
     padding: 5px 0 0 0;
-
-    
+    z-index: 200;
 }
 
-.sidebar-occupied-space{
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 400px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
 .sidebar-items-div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    height: 65px;
+    cursor: pointer;
 }
-
+.sidebar-items-div:hover{
+    background-color: rgba(0,0,0,0.08);
+}
+.sidebar-items-div:active{
+    background-color: rgba(0,0,0,0.2);
+}
 .sidebar-icons{
     height: 24px;
+    margin-bottom: 4px;
 }
 .sidebar-icon-description{
     font-size: 10px;
