@@ -8,7 +8,7 @@
     left: 0;
     right: 0;
     top: 0;
-    z-index: 5;
+    z-index: 100;
 }
 
 .header-left{
@@ -86,10 +86,27 @@
     min-width: 200px;
     flex-shrink: 0;
 }
-.right-side-icons{
-    height: 24px;
+.upload-icon{
+    height: 27px;
+}
+
+.notification-div{
+    position: relative;
+}
+.notification-icon{
+    height: 30px;
+}
+.notification-count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(199, 25, 25);
+    color: white;
+    font-size: 12px;
+    padding: 0 3px 0 3px;
+    border-radius: 20px;
 }
 .myPic{
-    height: 30px;
-    border-radius: 15px;
+    height: 35px;
+    border-radius: 17.5px;
 }

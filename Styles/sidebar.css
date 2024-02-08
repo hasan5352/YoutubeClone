@@ -5,4 +5,33 @@
     top: 57px;
     width: 72px;
     padding: 5px 0 0 0;
+
+    
+}
+
+.sidebar-occupied-space{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.sidebar-items-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sidebar-icons{
+    height: 24px;
+}
+.sidebar-icon-description{
+    font-size: 10px;
 }
