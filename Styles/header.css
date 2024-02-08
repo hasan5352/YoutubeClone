@@ -1,10 +1,14 @@
 
 .header{
-    margin-bottom: 20px;    
     height: 57px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #dedede;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 5;
 }
 
 .header-left{
@@ -22,10 +26,9 @@
 
 .header-middle{
     flex: 1;
-    max-width: 500px;
+    max-width: 732px;
     display: flex;
     align-items: center;
-    
     margin-left: 70px;
     margin-right: 35px;
 }
@@ -35,9 +38,10 @@
     border: 1px solid rgb(204, 204, 204);
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.05);
     flex: 1;
-    height: 34px;
-    padding-left: 14px;
+    height: 38px;
+    padding: 1px 2px 1px 14px;
     font-size: 16px;
+    width: 0;
     }
 .search-box::placeholder{
     font-family: Roboto, Arial;
@@ -47,12 +51,11 @@
     border: 1px solid #cccccc;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    height: 39px;
+    height: 42px;
     width: 66px;
     background-color: rgb(248, 248, 248);
-    margin-left: -1px;
+    margin-left: -3px;
     margin-right: 15px;
-    
 }
 .search-icon{
     height: 25px;
@@ -60,9 +63,9 @@
 }
 .microphone-button{
     border: none;
-    border-radius: 20px;
-    height: 40px;
-    width: 40px;
+    border-radius: 21.5px;
+    height: 43px;
+    width: 43px;
     background-color: rgba(0, 0, 0, 0.05);
 }
 .microphone-button:hover{
@@ -72,20 +75,21 @@
     background-color: rgba(0, 0, 0, 0.25);
 }
 .microphone-icon{
-    height: 30px;
-    width: 20px;
+    height: 24px;
+    margin-top: 4px;
 }
 
 .header-right{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 200px;
-    background-color: lightgreen;
+    min-width: 200px;
+    flex-shrink: 0;
 }
 .right-side-icons{
-    height: 20px;
+    height: 24px;
 }
 .myPic{
-    height: 20px;
+    height: 30px;
+    border-radius: 15px;
 }
