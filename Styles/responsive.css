@@ -1,11 +1,11 @@
 @media (max-width: 1580px){
     .videos-grid{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 @media (max-width: 1220px){
     .videos-grid{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media (max-width: 884px){
